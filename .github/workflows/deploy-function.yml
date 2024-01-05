@@ -22,4 +22,4 @@ jobs:
           --entry-point send_whatsapp_message \
           --runtime python39 \
           --trigger-http \
-          --allow-unauthenticated  # or any other flags you need
+          --allow-unauthenticated
