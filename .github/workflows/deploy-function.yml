@@ -19,6 +19,7 @@ jobs:
     - name: Deploy to Google Cloud Functions
       run: |
         gcloud functions deploy andrekohatsubotinho \
+          --source=function/ \
           --entry-point send_whatsapp_message \
           --runtime python39 \
           --trigger-http \
